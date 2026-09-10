@@ -117,3 +117,5 @@ export function toEnglish(text) {
   cache.set(text, result);
   return result;
 }
+
+english['范围包含起止年份。日期只保留已知精度，不补月、日。同一 DOI 去重统计；已核实条目以论文官网或出版社排版PDF为准，作者贡献标记不再按旧站补齐，模板示例按所给 Word。引用年份以卷期信息为准。'] = 'The range includes both years. Dates retain their known precision; missing months and days are not invented. Identical DOIs are counted once. Verified records follow publisher articles or typeset PDFs, not the old lab website. Author contribution marks are checked against paper sources. Citations use the issue year and the supplied Word format.';
